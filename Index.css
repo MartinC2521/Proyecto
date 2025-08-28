@@ -1,0 +1,41 @@
+/*Clase*/
+.hf {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+ 
+}
+.hf a:hover {
+    color: blue;
+}
+/*ID*/
+#Hagiografía {
+    color: black;
+}
+#Frases {
+    color: black;
+}
+#Imágenes {
+    color: black;
+}
+/*Etiqueta*/
+h1 {
+    color: black;
+}
+h2 {
+    color: black;
+}
+/*Body*/
+body {
+    background-color: lightgrey;
+    margin: 0rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    text-align: center;
+    padding: 3rem;
+    background-image: url("./");
+    background-size: cover;
+    background-position: center;
+}
