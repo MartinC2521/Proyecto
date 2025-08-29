@@ -1,23 +1,53 @@
 /*Clase*/
 .hf {
-    background-color: white;
+    font-size: large;
+    padding: 0.75rem;
+    background-color: lightgray;
     color: black;
     text-align: center;
     font-weight: bold;
  
 }
 .hf a:hover {
-    color: blue;
+    color: darkblue;
 }
 /*ID*/
 #Hagiografía {
+    background-color: rgb(255, 255, 255);
     color: black;
+    text-align: center;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    margin: 1rem;
 }
 #Frases {
+    background-color: rgb(255, 255, 255);
     color: black;
+    text-align: center;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    margin: 1rem;
 }
 #Imágenes {
+    background-color: rgb(255, 255, 255);
     color: black;
+    text-align: center;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    margin: 1rem;
+}
+#img1, #img2, #img3 {
+    border-radius: 1rem;
+    margin: 1rem;
 }
 /*Etiqueta*/
 h1 {
@@ -25,17 +55,21 @@ h1 {
 }
 h2 {
     color: black;
+    font-size: x-large;
 }
 /*Body*/
 body {
-    background-color: lightgrey;
+    background-image: url("./fondo\ marron.jpg");
+    background-size: cover;
+    background-position: center;
     margin: 0rem;
     font-family: 'Times New Roman', Times, serif;
 }
 header {
     text-align: center;
+    font-size: x-large;
     padding: 3rem;
-    background-image: url("./");
-    background-size: cover;
-    background-position: center;
+}
+p {
+    font-size: large;
 }
