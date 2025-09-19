@@ -2,14 +2,13 @@
 .hf {
     font-size: large;
     padding: 0.75rem;
-    background-color: lightgray;
-    color: black;
+    background-color: rgb(110, 81, 43);
     text-align: center;
     font-weight: bold;
  
 }
 .hf a:hover {
-    color: darkblue;
+    color: black;
 }
 /*ID*/
 #Hagiografía {
@@ -41,7 +40,7 @@
     padding: 1rem;
     gap: 1rem;
     border-radius: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; 
     max-width: 100%;
     margin: 1rem;
 }
@@ -70,6 +69,17 @@ header {
     font-size: x-large;
     padding: 3rem;
 }
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+}
 p {
-    font-size: large;
+    font-family: inherit;
+    font-size: medium;
+}
+table {
+    font-family: inherit;
+    width: 100%;
+    margin: 2rem;
 }
