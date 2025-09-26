@@ -76,10 +76,11 @@ nav a {
 }
 p {
     font-family: inherit;
-    font-size: medium;
+    font-size: large;
 }
 table {
     font-family: inherit;
+    font-size: inherit;
     width: 100%;
     margin: 2rem;
 }
