@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia de San Pompilio</title>
+    <link rel="stylesheet" href="./San Pompilio.css"></head>
+<body>
+        <section id="Trivia">
+      <h2>Trivia</h2>
+          <div class="Pregunta">
+            <h3>1. ¿Cuál era el nombre de nacimiento de San Pompilio María Pirrotti antes de unirse a la orden religiosa?</h3>
+            <button class="opcion" data-correcta="false" onclick="manejarResultado(this)">Giovanni Battista</button>
+            <button class="opcion" data-correcta="true" onclick="manejarResultado(this)">Domenico Michele Giovan Battista Pirrotti</button>
+            <button class="opcion" data-correcta="false" onclick="manejarResultado(this)">Lorenzo Antonio</button>
+        </div>
+        <div class="Pregunta">
+            <h3>2. ¿A qué orden religiosa ingresó San Pompilio María Pirrotti a la edad de 18 años?</h3>
+            <button class="opcion" data-correcta="true" onclick="manejarResultado(this)">Escolapios</button>
+            <button class="opcion" data-correcta="false" onclick="manejarResultado(this)">Franciscanos</button>
+            <button class="opcion" data-correcta="false" onclick="manejarResultado(this)">Jesuitas</button>
+        </div>
+        <div class="Pregunta">
+            <h3>3. ¿Por qué razón principal fue expulsado temporalmente del Reino de Nápoles?</h3>
+            <button class="opcion" data-correcta="true" onclick="manejarResultado(this)">Por acusaciones de indulgencia excesiva con los penitentes</button>
+            <button class="opcion" data-correcta="false" onclick="manejarResultado(this)">Por desobedecer al rey en asuntos políticos</button>
+            <button class="opcion" data-correcta="false" onclick="manejarResultado(this)">Por predicar contra la nobleza</button>
+        </div>
+        <div class="Pregunta">
+            <h3>4. ¿Cuál de los siguientes apodos fue utilizado para referirse a San Pompilio María Pirrotti debido a los prodigios que se le atribuyeron?</h3>
+            <button class="opcion" data-correcta="false" onclick="manejarResultado(this)">El Santo Maestro</button>
+            <button class="opcion" data-correcta="true" onclick="manejarResultado(this)">El taumaturgo de Nápoles</button>
+            <button class="opcion" data-correcta="false" onclick="manejarResultado(this)">El predicador infatigable</button>
+        </div>
+        <div class="Pregunta">
+            <h3>5. ¿En qué año fue canonizado San Pompilio María Pirrotti?</h3>
+            <button class="opcion" data-correcta="false" onclick="manejarResultado(this)">1890</button>
+            <button class="opcion" data-correcta="true" onclick="manejarResultado(this)">1934</button>
+            <button class="opcion" data-correcta="false" onclick="manejarResultado(this)">1920</button>
+        </div>
+        <div class="Pregunta">
+            <h3>6. ¿Qué nombre llevaba la cofradía que fundó para ayudar a los pobres y enfermos?</h3>
+            <button class="opcion" data-correcta="false" onclick="manejarResultado(this)">Cofradía de la Misericordia</button>
+            <button class="opcion" data-correcta="false" onclick="manejarResultado(this)">Hermanos de la Caridad</button>
+            <button class="opcion" data-correcta="true" onclick="manejarResultado(this)">Caridad de Dios</button>
+        </div>
+        <div class="Pregunta">
+            <h3>7. ¿Cuál es uno de los títulos por los que es conocido San Pompilio María Pirrotti debido a su labor con los niños y pobres?</h3>
+            <button class="opcion" data-correcta="true" onclick="manejarResultado(this)">Apóstol de los Abruzos</button>
+            <button class="opcion" data-correcta="false" onclick="manejarResultado(this)">El Apóstol de Nápoles</button>
+            <button class="opcion" data-correcta="false" onclick="manejarResultado(this)">El Santo de los Niños</button>
+        </div>
+        <div class="Pregunta">
+            <h3>8. ¿Además de la Virgen María y el Sagrado Corazón, de qué devoción particular fue un gran apóstol San Pompilio María Pirrotti?</h3>
+            <button class="opcion" data-correcta="false" onclick="manejarResultado(this)">El Vía Crucis</button>
+            <button class="opcion" data-correcta="true" onclick="manejarResultado(this)">El Escapulario Carmelita</button>
+            <button class="opcion" data-correcta="false" onclick="manejarResultado(this)">Las Ánimas del Purgatorio</button>
+        </div>
+        <div class="Pregunta">
+            <h3>9. ¿Qué frase se le atribuye haber dicho antes de morir el 15 de julio de 1766?</h3>
+            <button class="opcion" data-correcta="false" onclick="manejarResultado(this)">"He hecho bien a todos"</button>
+            <button class="opcion" data-correcta="true" onclick="manejarResultado(this)">"¡Oh, la Madre preciosa, la Mamá linda viene a llevarme al cielo!"</button>
+            <button class="opcion" data-correcta="false" onclick="manejarResultado(this)">"Perdona a mis detractores"</button>
+        </div>
+        <div class="Pregunta">
+            <h3>10. ¿Quién fue el Papa que beatificó a San Pompilio María Pirrotti en 1890?</h3>
+            <button class="opcion" data-correcta="false" onclick="manejarResultado(this)">Papa Pío XI</button>
+            <button class="opcion" data-correcta="true" onclick="manejarResultado(this)">Papa León XIII</button>
+            <button class="opcion" data-correcta="false" onclick="manejarResultado(this)">Papa Benedicto XV</button>
+        </div>
+        <div class="Pregunta">
+            <button id="btnVolver" onclick="volverInicio()">Volver al Inicio</button>
+            <button id="btnResultado" onclick="MostrarResultado()">Mostrar Resultado</button>
+        </div>
+    </section>
+    <script src="./San Pompilio.js"></script>
+</body>
+</html>
