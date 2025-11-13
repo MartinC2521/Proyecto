@@ -16,6 +16,7 @@
     <a href="#Hagiografía">Hagiografía</a>
     <a href="#Frases">Frases</a>
     <a href="#Imágenes">Imágenes</a>
+    <a href="#jugarTrivia">Trivia</a>
   </nav>
   <main>
     <section id="Hagiografía">
@@ -30,7 +31,6 @@ También fue conocido como el "taumaturgo de Nápoles" (hacedor de milagros) deb
 
 Murió en Campi Salentina (Lecce) el 15 de julio de 1766, víspera de la Virgen del Carmen. Antes de morir exclamó: "¡Oh, la Madre preciosa, la Mamá linda viene a llevarme al cielo!" Fue beatificado en 1890 por el Papa León XIII y canonizado por el Papa Pío XI en 1934. Es conocido como el “Apóstol de los Abruzos” por su labor con los niños y pobres, destacando por su compromiso con la compasión y la amabilidad en su ministerio sacerdotal, siendo llamado en vida el "Padre Santo".
 </p>
-        <button id="comenzarTrivia" onclick="comenzarTrivia()">Comenzar Trivia</button>
     </section>
     <section id="Frases">
         <h2>Frases</h2>
@@ -63,17 +63,51 @@ Murió en Campi Salentina (Lecce) el 15 de julio de 1766, víspera de la Virgen 
           </tbody>
         </table>
     </section>
+      <section id="jugarTrivia">
+        <h2> ¿Qué tanto sabes de San Pomilio?</h2>
+        <button id="abrirTrivia">Comenzar Trivia</button>
+    </section>
+    <div id="modalTrivia" class="modal">
+    <div class="modal-contenido">
+    <span class="cerrar">&times;</span>
+    <h2>Trivia de San Pompilio María Pirrotti</h2>
+    <form id="contenidoTrivia">
+      <p><strong>1.</strong> ¿Dónde nació San Pompilio?</p>
+      <label><input type="radio" name="p1" value="Montecalvo"> Montecalvo</label><br>
+      <label><input type="radio" name="p1" value="Napoles"> Nápoles</label><br>
+      <label><input type="radio" name="p1" value="Roma"> Roma</label><br><br>
+      <p><strong>2.</strong> ¿En qué año fue canonizado San Pomilio?</p>
+      <label><input type="radio" name="p2" value="1934"> 1934</label><br>
+      <label><input type="radio" name="p2" value="1890"> 1890</label><br>
+      <label><input type="radio" name="p2" value="1766"> 1766</label><br><br>
+      <p><strong>3.</strong> ¿Cuál era el nombre de nacimiento de San Pomilio?</p>
+      <label><input type="radio" name="p3" value="Giovanni Battista"> Giovanni Battista</label><br>      
+      <label><input type="radio" name="p3" value="Domenico Michele Giovan Battista Pirrotti"> Domenico Michele Giovan Battista Pirrotti</label><br>
+      <label><input type="radio" name="p3" value="Pompilio Maria Pirrotti"> Pompilio Maria Pirrotti</label><br><br>
+      <p><strong>4.</strong> ¿Donde murio San Pompilio?</p>
+      <label><input type="radio" name="p4" value="Napoles"> Nápoles</label><br>
+      <label><input type="radio" name="p4" value="Roma"> Roma</label><br><br>      
+      <label><input type="radio" name="p4" value="Campi Salentina"> Campi Salentina</label><br>
+      <p><strong>5.</strong> ¿A qué edad ingreso a la orden escolapia?</p>
+      <label><input type="radio" name="p5" value="16"> 16</label><br>
+      <label><input type="radio" name="p5" value="18"> 18</label><br>
+      <label><input type="radio" name="p5" value="20"> 20</label><br><br>
+      <button type="submit">Enviar Respuestas</button>
+    </form>
+    <div id="resultado"></div>
+         </div>
+        </div> 
     <section id="Imágenes">
         <h2>Imágenes</h2>
         <img src="./Captura de pantalla 2025-08-28 204927.png" width="300" height="400" id="img1">
         <img src="./Captura de pantalla 2025-08-28 204912.png" width="300" height="400" id="img2">
         <img src="./Captura de pantalla 2025-08-28 214303.png" width="300" height="400" id="img3">
     </section>
-    <script src="./San Pompilio.js"></script>
   </main>
   <footer class="hf">
     <p>&copy; 2025 Martín Contarino, Luciano Diaz y Valentín Szer</p>
   </footer>
+  <script src="./San Pompilio.js"></script>
 </body>
 
 </html>

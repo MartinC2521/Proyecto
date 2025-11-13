@@ -10,21 +10,15 @@
 .hf a:hover {
     color: black;
 }
-.Pregunta {
-    background-color: rgb(110, 81, 43);
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    gap: 1rem;
-    border-radius: 1rem;
-    margin-bottom: 1rem;
-    max-width: 100%;
-    margin: 1rem;
+.cerrar {
+    color: red;
+    float: right;
+    font-size: xx-large;
+    font-weight: bold;
+    cursor: pointer;
 }
-.opcion.seleccionada {
-    background-color: rgb(150, 111, 63);
-    color: white;
-    border: 3px solid rgb(150, 111, 63);
+.cerrar:hover {
+    color: darkred;
 }
 /*ID*/
 #Hagiografía {
@@ -48,6 +42,7 @@
     margin-bottom: 1rem;
     max-width: 100%;
     margin: 1rem;
+    font-size: larger;
 }
 #Trivia {
     background-color: rgb(255, 255, 255);
@@ -70,6 +65,20 @@
     margin-bottom: 1rem; 
     max-width: 100%;
     margin: 1rem;
+}
+#jugarTrivia {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem; 
+    max-width: 100%;
+    margin: 1rem;
+}
+#modalTrivia .modal-contenido {
+    background-color: rgb(210, 180, 140);
 }
 #img1, #img2, #img3 {
     border-radius: 1rem;
@@ -130,4 +139,25 @@ button {
 }
 button:hover {
     background-color: rgb(150, 111, 63);
+}
+#modalTrivia {
+    display: none;
+    position: fixed; 
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-contenido {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
